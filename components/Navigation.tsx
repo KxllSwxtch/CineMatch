@@ -17,11 +17,12 @@ const Navigation: React.FC<{}> = (): JSX.Element => {
 				</nav>
 			) : (
 				<Image
-					src='/public/images/menu.png'
+					src='https://res.cloudinary.com/dt0nkqowc/image/upload/v1685705629/menu_ebylda.png'
 					width={32}
 					height={32}
 					alt='Navigation button'
 					onClick={openNav}
+					className='cursor-pointer'
 				/>
 			)}
 		</>
